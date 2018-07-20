@@ -1,0 +1,172 @@
+/*:root {
+  font-size: 16px; }*/
+  .fullscreen-menu{
+  	height:100%;
+  }
+  ul {
+  	margin: 0;
+  }
+.banner {
+  width:100%; /* 20px smaller, to fit the paddings on the sides */
+  height: 100vh;
+  overflow: hidden;
+}
+body {
+  margin: 0;
+  padding: 0; 
+height: 100%;
+}
+.topnav{
+	position: relative;
+    background-color: black;
+    height: 45px;
+ }
+.topnav ul {
+	position: absolute;
+	right: 0;
+	font-size: 30px;
+	opacity: 0.6;
+  transition: 0.3s;
+  
+
+}
+.topnav{
+	background-color: black;
+
+
+}
+ 
+a:hover{
+background-color: red;
+}
+
+
+
+
+.background-image {
+	position: relative;
+	background-image: url("IMG_20180630_224306.jpg");
+	background-size: 400px 680px;
+	background-repeat: no-repeat;
+	background-position: right;
+}
+
+.container {
+  position: relative;  
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.banner .card {
+  background: black;
+  
+  }
+
+ 
+
+   .background-image {
+    /* The image used */
+    
+
+    /* Full height */
+    height: 100vh; 
+
+
+   
+}
+ 
+
+.container .sub-heading {
+	color: white;
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	z-index: 999;
+text-align: left;
+}
+ 
+ .container .sub-heading2 {
+	color: white;
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	z-index: 999;
+}
+.container .sub-heading3 {
+	color: white;
+	font-family: "Playfair Display", serif;
+	font-size: 40px;
+	margin: 0;
+	padding: 10px;
+	position: relative;
+	z-index: 999;
+}
+/*.row {
+  display: block;
+
+  margin-top: 30px; }*/
+
+  /*.row .my-image {
+    border: 1px solid #35eea4;
+    border-radius: 5px;
+    box-shadow: 0px 3px 20px 2px #2c2c2c;
+    width: 250px;
+    float: right;
+  }*/
+
+.paragraph {
+   color: #2c2c2c;
+  font-family: "Istok Web", sans-serif;
+  font-size:40px
+}
+
+.vertical-menu{
+	background-color: orange;
+	font-family: "Istok Web", sans-serif;
+	height: 100vh;
+
+  max-width:100%; /* 20px smaller, to fit the paddings on the sides */
+  /*padding-right: 10px;
+  padding-left: 10px;*/
+}
+.vertical-menu a {
+	display: block;
+}
+a{
+	text-decoration: none;
+}
+.virtical-menu a:hover {
+	opacity: 1;
+	background-color: red;
+
+}
+
+.icon-group {
+	background-color: black;
+	height: 300px;
+	text-align: center;
+	}
+	/*.icon-group img{
+		content: center;
+	}
+ /* width: 100%; }*/*/
+
+    h6::before {
+content: “@”;
+color: red;
+}
+
+
+
+.ul {
+    display: inline;
+    float: right;
+    position: fixed;
+    top: 0;
+}
+
+ 
